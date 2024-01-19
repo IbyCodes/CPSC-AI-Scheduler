@@ -1,0 +1,16 @@
+wMinFilled=1
+wPref=1
+wPair=1
+wSecDiff=1
+penCourseMin=1
+penLabMin=1
+penNotPaired=1
+penSection=1
+printPr=true
+printData=false
+initialPop=40
+maxPop=60
+maxGeneration=100
+numRemove=20
+stableThreshold=1
+maxStableGeneration=70

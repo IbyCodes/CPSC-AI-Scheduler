@@ -1,0 +1,31 @@
+plugins {
+    id 'java'
+    id 'checkstyle'
+    id 'application'
+}
+
+group 'ca.ucalgary'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+application {
+    mainClass = 'Scheduler'
+}
+
+run {
+    args = ["C:/Users/chanc/CPSC-433-Bin/config.txt",
+             "C:/Users/chanc/CPSC-433-Bin/shortExample.txt"]
+}
+
+checkstyle {
+    toolVersion = '10.2'
+}
+
+dependencies {}
+
+test {
+    useJUnitPlatform()
+}
